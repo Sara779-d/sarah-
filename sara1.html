@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صوره خلفيه نص</title>
+   
+</head>
+<style>
+    #h2{
+        font-family:sans-serif;
+        font-style: italic;
+        font-size: 50px;
+        flex-direction: column;
+        text-align: center;
+        color: #41431B;
+    }
+  #h2:hover{
+        background-image: url(red.jpg);
+        background-clip: text;
+        background-size: 300% 300%;
+        color: transparent;
+        animation: animate 8s ease infinite;
+    }
+    @keyframes animate{
+        0%{
+            background-position: 0%;
+
+        }
+        50%{
+            background-position: 50%;
+        }
+    }
+</style>
+<body>
+   <h2 id="h2">Sumud</h2> 
+</body>
+</html>
